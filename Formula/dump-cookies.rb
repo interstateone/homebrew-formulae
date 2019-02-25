@@ -1,9 +1,9 @@
 class DumpCookies < Formula
   desc "Dump the contents of Apple's .binarycookies files"
   homepage "https://github.com/interstateone/BinaryCookies"
-  url "https://github.com/interstateone/BinaryCookies.git", revision: "cd4decec9ebd99888af2a5b8d65474046a5767a3"
+  url "https://github.com/interstateone/BinaryCookies.git", revision: "5fffd16d021e478376e841c0768d021598d70c5f"
   head "https://github.com/interstateone/BinaryCookies.git"
-  version "0.1.0"
+  version "1.0.0"
 
   depends_on xcode: ["10.0", :build]
 
